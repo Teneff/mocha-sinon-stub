@@ -1,11 +1,11 @@
-const impl = require("./impl");
-const something = require("./something");
+import impl from "./impl";
+import something from "./something";
 
-const sinon = require("sinon");
+import { stub } from "sinon";
 
 describe("proba", () => {
   before(() => {
-    sinon.stub(impl, "method").returns("bananas");
+    stub(impl, "method").returns("bananas");
   });
 
   it("should ", () => {

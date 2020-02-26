@@ -1,7 +1,7 @@
-const impl = require("./impl");
+import impl from "./impl";
 
 const something = () => {
   return impl.method() + 'xxxx';
 }
 
-module.exports = something;
+export default something;

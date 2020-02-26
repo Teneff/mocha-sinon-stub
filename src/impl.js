@@ -3,4 +3,4 @@ const impl = {
 };
 
 
-module.exports = impl;
+export default impl;
