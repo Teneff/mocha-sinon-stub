@@ -1,0 +1,14 @@
+{
+  "name": "test-sinon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha -r chai/register-expect ./src/**/*.spec.js"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.0",
+    "sinon": "^9.0.0"
+  }
+}
